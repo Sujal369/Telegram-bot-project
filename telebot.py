@@ -1,6 +1,6 @@
 import telegram.ext
-Token = "6120682729:AAHaaGDiUefqPFPop5D-ZERXWwjOvYI0mR4"
-updater = telegram.ext._updater("6120682729:AAHaaGDiUefqPFPop5D-ZERXWwjOvYI0mR4", use_context = True)
+Token = "YOUR TOKEN ID"
+updater = telegram.ext._updater("YOUR TOKEN ID", use_context = True)
 dispatcher = updater.dispatcher
 def start(update, context):
     update.message.reply_text("Hello")
